@@ -1,0 +1,12 @@
+{
+    "servidor": {
+        "porta": 8000
+    },
+
+    "appCredencial": {
+        "consumer_key"   : "ITzfPaYqWhumff4BdQYlQ9jXV",
+        "consumer_secret": "o4o6HHe8YljGp8FaRMaV3BZJyrKOgBUC01BsQSunV19yfJG5bT",
+        "token"          : "721310135424020480-BE1lMNYbV3c9tbECTdaQ8Hb2Jxb0OIt",
+        "token_secret"   : "LY7WrMurrkUBDY9pOjziqbF44qIDVotpwjR2rkgKUJN2f"
+    }
+}

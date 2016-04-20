@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="App de leitura de tweets em tempo real com websocket">
+		<meta name="author"      content="Rodolfo Felipe">
+		
+		<title>App Twitter Real Time</title>
+
+		<link rel="shortcut icon" href="../public/images/gt_favicon.png">
+		
+		<!-- Bootstrap itself -->
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<!-- Icons -->
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> 
+		<!-- Fonts -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700"> 
+		<!-- Custom styles -->
+		<link rel="stylesheet" href="../public/css/styles.css">
+
+	</head>
+
+	<body>
+
+		<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-push-2 text-center">
+						<h1>Tweets em Tempo Real</h1>
+						<h2>Procure pelo termo desejado</h2>
+						<br>
+						
+						<form class="form-inline" action="" role="form">
+							<div class="form-group"><input type="text" class="form-control input-lg" id="txtTermo" placeholder="Digite o termo"></div>
+							<button type="submit" class="btn btn-lg btn-default">Buscar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- /Header -->
+			
+
+		<!-- Content -->
+		<main class="content">
+
+			<!-- Lead -->
+			<section class="container space-before space-after">
+				<div class="row">
+					<div class="col-sm-10 col-sm-push-1">
+						<h1 class="text-center">Resultado da Busca</h1>
+						<p class="lead text-center">Termo buscado: <span  id="txtTermoBuscado"></span></p> 
+					</div>
+				</div>
+			</section>
+			<!-- /Lead -->
+
+			<!-- Features -->
+			<section class="container">
+				<div class="row featurelist space-after">
+					<div class="col-sm-12">
+						<ul id="lista_tweets"></ul>
+					</div>
+				</div>
+			</section>
+			<!-- /Features -->
+
+		</main>
+
+		<p class="small text-muted text-center">Copyright &copy; 2016, Rodolfo Felipe.</p>
+		<br>
+
+		<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="../public/js/template.js"></script>
+		<script src="../public/js/socket.io-client/socket.io.js"></script>
+		<script src="../public/js/socketTweet.js"></script>
+	</body>
+</html>

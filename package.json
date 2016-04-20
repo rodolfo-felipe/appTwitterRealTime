@@ -1,0 +1,13 @@
+{
+  "name": "apptwitterrealtime",
+  "version": "1.0.0",
+  "description": "App Twitter RT - Aplicação de busca de tweet por termo específico",
+  "main": "app.js",
+  "dependencies": {
+    "consolidate": "^0.14.0",
+    "express": "^4.10.2",
+    "node-tweet-stream": "^1.10.0",
+    "socket.io": "^1.4.5",
+    "swig": "^1.4.2"
+  }
+}
