@@ -3,16 +3,21 @@ Aplicação de busca de Tweets em "Tempo Real" filtrados por um determinado term
 
 Para executar a aplicação siga os passos abaixo:
 
+---> Requisito básico:
+
+Software NodeJs instalado.
+
+---> Instalação:
+
 1º - Faça o download do conteúdo deste repositório;
+2º - Abra o prompt de comando ou terminal;
+3º - Acesse o diretório raiz onde salvou e descompactou a aplicação;
+4º - Execute o comando "npm install" para baixar as dependências da aplicação;
+5º - Após finalizar, execute o comando "node app.js" para subir a aplicação;
 
-2º - Instale o NodeJs para seu sistema operacional (LINK);
+OBS.: Assim que a aparecer a mensagem "Servidor escutando na porta: 8000" no prompt de comando / terminal, a aplicação já pode ser acessada.
 
-3º - Abra o prompt de comando ou terminal;
+---> Execução:
 
-4º - Acesse o diretório raiz onde salvou a aplicação;
-
-5º - Execute o comando "npm install" para baixar as dependências da aplicação;
-
-6º - Após finalizar, execute o comando "node app.js" para subir a aplicação;
-
-7º - Abra o endereço "http://localhost:8000" no navegador para acessar a aplicação.
+1º - Após subir a aplicação com o comando "node app.js" no diretório raiz do app, abra o navegador e acesse a url "http://localhost:8000".
+2º - Digite o termo dejesado para filtrar os tweets e aguarde o retorno.
